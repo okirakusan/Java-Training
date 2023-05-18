@@ -1,8 +1,8 @@
 public class Student4 {
-    String name;
-    static int counter = 0;
+    private String name;
+    private static int counter = 0;
 
-    Student4(String n){
+    public Student4(String n){
         name = n;
         counter++;
         System.out.println(
@@ -10,7 +10,7 @@ public class Student4 {
         );
     }
 
-    static void display(){
+    public static void display(){
         System.out.println(counter + "人です");
     }
     
